@@ -1,0 +1,3 @@
+.reverseRow {
+  @apply lg:flex-row-reverse;
+}

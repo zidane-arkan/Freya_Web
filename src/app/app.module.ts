@@ -10,6 +10,7 @@ import { MainComponent } from './components/landing/main/main.component';
 import { AboutComponent } from './components/landing/about/about.component';
 import { FeatureComponent } from './components/landing/feature/feature.component';
 import { FooterComponent } from './components/layouts/footer/footer.component';
+import { AboutlistComponent } from './components/layouts/aboutlist/aboutlist.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { FooterComponent } from './components/layouts/footer/footer.component';
     AboutComponent,
     FeatureComponent,
     FooterComponent,
+    AboutlistComponent,
   ],
   imports: [BrowserModule, MdbCheckboxModule],
   providers: [],
