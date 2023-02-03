@@ -5,4 +5,5 @@ export interface AboutList {
   parafText?: string;
   btnText?: string;
   imgLink?: string;
+  link?: string;
 }
