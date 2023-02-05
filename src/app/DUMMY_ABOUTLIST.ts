@@ -13,7 +13,7 @@ export const dummyAboutList: AboutList[] = [
   {
     isReverseRow: true,
     spanText: 'Join, it"s free',
-    headingText: 'Spread Various Forms of Violence',
+    headingText: 'Inform Various Forms of Violence',
     parafText:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.',
     btnText: 'Learn More',

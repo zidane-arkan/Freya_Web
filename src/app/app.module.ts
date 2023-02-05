@@ -11,6 +11,7 @@ import { AboutComponent } from './components/landing/about/about.component';
 import { FeatureComponent } from './components/landing/feature/feature.component';
 import { FooterComponent } from './components/layouts/footer/footer.component';
 import { AboutlistComponent } from './components/layouts/aboutlist/aboutlist.component';
+import { CtaComponent } from './components/landing/cta/cta.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { AboutlistComponent } from './components/layouts/aboutlist/aboutlist.com
     FeatureComponent,
     FooterComponent,
     AboutlistComponent,
+    CtaComponent,
   ],
   imports: [BrowserModule, MdbCheckboxModule],
   providers: [],
