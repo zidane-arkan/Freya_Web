@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { AboutList } from 'src/app/AboutList';
-
+import Aos from 'aos';
 @Component({
   selector: 'app-aboutlist',
   templateUrl: './aboutlist.component.html',
@@ -8,7 +8,9 @@ import { AboutList } from 'src/app/AboutList';
 })
 export class AboutlistComponent implements OnInit {
   constructor() {}
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    Aos.init();
+  }
   // @Input() listData
   @Input() aboutList?: AboutList;
   // @Input() spanText?: string;
