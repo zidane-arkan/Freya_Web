@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-navbar',
@@ -8,7 +9,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class NavbarComponent implements OnInit {
   constructor() {}
   @Input() isShow: boolean = false;
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    AOS.init();
+  }
 
   toggleNavbar() {
     console.log(2);

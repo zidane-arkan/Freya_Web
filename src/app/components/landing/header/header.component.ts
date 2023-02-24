@@ -8,7 +8,11 @@ import AOS from 'aos';
 })
 export class HeaderComponent implements OnInit {
   ngOnInit(): void {
-    AOS.init();
+    AOS.init({
+      offset: 100,
+      anchorPlacement: 'bottom-top',
+      mirror: true
+    });
   }
   constructor() {}
 }

@@ -7,6 +7,8 @@ import AOS from 'aos';
 })
 export class FeatureComponent implements OnInit {
   ngOnInit(): void {
-    AOS.init();
+    AOS.init({
+      mirror: true
+    });
   }
 }

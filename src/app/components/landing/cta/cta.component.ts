@@ -9,7 +9,7 @@ import AOS from 'aos';
 export class CtaComponent implements OnInit {
   ngOnInit(): void {
     AOS.init({
-      offset: 320,
+      offset: 250,
     });
   }
 }
