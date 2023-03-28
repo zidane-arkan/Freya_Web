@@ -2,30 +2,30 @@ import { AboutList } from './AboutList';
 export const dummyAboutList: AboutList[] = [
   {
     isReverseRow: false,
-    spanText: 'Violence Is Not the Answer or the Question',
+    spanText: 'VIOLENCE IS NOT AN ANSWER OR A QUESTION',
     headingText: 'we want to fight violence against women',
     parafText:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.',
+      'Violence against women is something that must be prevented, not just overcome.',
     btnText: 'Learn More',
     imgLink: 'https://source.unsplash.com/640x480/?1',
     link: 'https://genderdata.worldbank.org/data-stories/overview-of-gender-based-violence/',
   },
   {
     isReverseRow: true,
-    spanText: 'Join, it"s free',
+    spanText: 'Violence takes many forms',
     headingText: 'Inform Various Forms of Violence',
     parafText:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.',
+      'Sharing stories of violence that happened or nearly happened to you will help many people.',
     btnText: 'Learn More',
     imgLink: 'https://source.unsplash.com/640x480/?2',
     link: 'https://www.coe.int/en/web/commissioner/-/no-space-for-violence-against-women-and-girls-in-the-digital-world/',
   },
   {
     isReverseRow: false,
-    spanText: 'Join, it"s free',
+    spanText: 'Find Your Way',
     headingText: 'We Want Provide The Right Way To Fight Back',
     parafText:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aliquam possimus quas, error esse quos.',
+      'Let\'s help each other fight violence against women in an appropriate and correct way.',
     btnText: 'Get Started',
     imgLink: 'https://source.unsplash.com/640x480/?3',
     link: '#',
