@@ -25,9 +25,9 @@ export const dummyAboutList: AboutList[] = [
     spanText: 'Find Your Way',
     headingText: 'We Want Provide The Right Way To Fight Back',
     parafText:
-      'Let\'s help each other fight violence against women in an appropriate and correct way.',
+      "Let's help each other fight violence against women in an appropriate and correct way.",
     btnText: 'Get Started',
     imgLink: 'https://source.unsplash.com/640x480/?3',
-    link: '#',
+    link: 'https://jech.bmj.com/content/59/10/818',
   },
 ];
