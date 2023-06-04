@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { FeatureComponent } from './components/landing/feature/feature.component
 import { FooterComponent } from './components/layouts/footer/footer.component';
 import { AboutlistComponent } from './components/layouts/aboutlist/aboutlist.component';
 import { CtaComponent } from './components/landing/cta/cta.component';
+import { ForgetpasswordComponent } from './components/error/forgetpassword/forgetpassword.component';
 
 @NgModule({
   declarations: [
@@ -25,8 +27,9 @@ import { CtaComponent } from './components/landing/cta/cta.component';
     FooterComponent,
     AboutlistComponent,
     CtaComponent,
+    ForgetpasswordComponent,
   ],
-  imports: [BrowserModule, MdbCheckboxModule],
+  imports: [BrowserModule, MdbCheckboxModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
 })
